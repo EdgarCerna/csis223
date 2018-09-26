@@ -1,0 +1,10 @@
+AX205	Phoenix_Juicer		114.95
+BL114	Harper_Sound_Monitor	149.95
+BY604	Feld_Convection_Oven	469.95
+CL120	Holden_DoorGuard	 27.49
+CL455	Entrex_Static_Mat	 69.95
+DD889	Evans_FloorCote		 14.25
+DQ114	Lerner_Multi-Timer	 18.49
+EG802	Zygran_Humidifier	 34.95
+FA105	Olden_Video_Splitter	  7.95
+FZ225	Yard-eze_CarryAll	 12.49
