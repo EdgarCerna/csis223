@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assign01-InventoryStruct", "Assign01-InventoryStruct.vcxproj", "{911697F6-98E6-40EE-AE6B-A8A22CAC8A95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{911697F6-98E6-40EE-AE6B-A8A22CAC8A95}.Debug|x64.ActiveCfg = Debug|x64
+		{911697F6-98E6-40EE-AE6B-A8A22CAC8A95}.Debug|x64.Build.0 = Debug|x64
+		{911697F6-98E6-40EE-AE6B-A8A22CAC8A95}.Debug|x86.ActiveCfg = Debug|Win32
+		{911697F6-98E6-40EE-AE6B-A8A22CAC8A95}.Debug|x86.Build.0 = Debug|Win32
+		{911697F6-98E6-40EE-AE6B-A8A22CAC8A95}.Release|x64.ActiveCfg = Release|x64
+		{911697F6-98E6-40EE-AE6B-A8A22CAC8A95}.Release|x64.Build.0 = Release|x64
+		{911697F6-98E6-40EE-AE6B-A8A22CAC8A95}.Release|x86.ActiveCfg = Release|Win32
+		{911697F6-98E6-40EE-AE6B-A8A22CAC8A95}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA93DE72-009D-42D0-B48C-3912610D36E0}
+	EndGlobalSection
+EndGlobal
