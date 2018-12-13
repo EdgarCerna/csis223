@@ -32,8 +32,11 @@ void	Square::setSide(int newLength)
 
 void	Square::display()
 {
-   cout << "Square    at (" << getX() << "," << getY() << ")  "
-        << "length of side: "  << getSide() << endl;
+	cout << fixed << setprecision(3);
+	cout << "Square   : (" << setw(2) << getX() << ',' << setw(2) << getY() << ')'
+		<< "      length of side: " << right << setw(2) << getSide()
+		<< "   area: " << right << setw(7) << getArea()
+		<< "   perimeter: " << right << setw(7) << getPerimeter() << endl;
 }
 
 // overloaded operators

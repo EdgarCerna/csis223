@@ -7,7 +7,7 @@ class Square: public Rect
 	Square();
 	Square(int newX, int newY, int length);
 	int		getSide();
-	void	setSide(int  newlength);
+	void	setSide(int	newlength);
 	void	display();
 
 	bool	operator==(const  Square&)  const;	// overloaded equality   operator ==

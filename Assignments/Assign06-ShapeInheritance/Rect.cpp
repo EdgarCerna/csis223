@@ -9,7 +9,7 @@ using namespace std;
 Rect::Rect() :
   Shape()
 {
-	setWidth(1);
+	setWidth(2);
 	setHeight(1);
 }
 
@@ -44,8 +44,12 @@ void Rect::setHeight(int newHeight)
 // display Rect info
 void Rect::display()
 {
-   cout << "Rectangle at (" << getX() << "," << getY() << ")  "
-        << "width:  " << getWidth() << "  height: " << getHeight() << endl;
+	cout << fixed << setprecision(3);
+	cout << "Rectangle: (" << setw(2) << getX() << ',' << setw(2) << getY() << ')'
+		 << "  width:  " << setw(2) << getWidth()
+		 << "  height: " << setw(2) << getHeight() 
+		 << "   area:" << right << setw(8) << getArea()
+		 << "   perimeter: " << right << setw(7) << getPerimeter() << endl;
 }
 
 double Rect::getArea()		const

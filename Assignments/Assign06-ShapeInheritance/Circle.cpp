@@ -32,16 +32,18 @@ void Circle::setRadius(int newRadius)
 // display circle info
 void Circle::display()
 {
-	cout << "Circle    : (" << getX() << "," << getY() << ")  "
-		<< "radius: " << right << setw(2) << getRadius() << "              "
-		<<"area: " << setw(6) << getArea() 
-		<< "  perimeter: " << right << setw(6) << getPerimeter() << endl;
+	cout << fixed << setprecision(3);
+	cout << "Circle   : (" << setw(2) << getX() << ',' << setw(2) << getY() << ')'
+		<< "  radius: " << setw(2) << getRadius() 
+		<< "              " << " area: " << right << setw(7) << getArea()
+		<< "   perimeter: " << right << setw(7) << getPerimeter() << endl;
 }
 
 double Circle::getArea()		const
 {
 	return (PI * radius) * (PI * radius);
 }
+
 double Circle::getPerimeter()	const
 {
 	return PI * 2 * radius;

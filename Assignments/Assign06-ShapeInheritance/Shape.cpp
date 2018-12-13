@@ -4,8 +4,7 @@
 // constructors
 Shape::Shape()
 {
-	setX(0);
-	setY(0);
+	moveTo(0, 0);
 }
 
 Shape::Shape(int newX, int newY)
